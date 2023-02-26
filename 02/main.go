@@ -49,9 +49,9 @@ func main() {
 	fs := bufio.NewScanner(f)
 	fs.Split(bufio.ScanLines)
 
-	var score int = 0
+	score := 0
 	var sum int = 0
-	var score2 int = 0
+	score2 := 0
 	var sum2 int = 0
 	var p2choice string
 	for fs.Scan() {

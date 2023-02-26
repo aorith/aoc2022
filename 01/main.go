@@ -18,7 +18,7 @@ func main() {
 
 	top := [3]int{0, 0, 0}
 	var current int = 0
-	var swap int = 0
+	swap := 0
 	for fs.Scan() {
 		calories, err := strconv.Atoi(fs.Text())
 		if err == nil {
